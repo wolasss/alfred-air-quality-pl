@@ -1,0 +1,24 @@
+{
+  "name": "alfred-air-quality-pl",
+  "version": "1.0.0",
+  "description": "Workflow for monitoring air quality in polish cities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": {
+    "name": "Adam Wolski",
+    "email": "kontakt@adamwolski.com",
+    "url": "http://adamwolski.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wolasss/alfred-air-quality-pl"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.6.0"
+  }
+}
